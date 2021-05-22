@@ -15,3 +15,4 @@ variable "type_instance_ami" {
   description = "Instancia_AMI_EC2 Ex:  t3.micro"
   default     = "t3.micro"
 }
+
