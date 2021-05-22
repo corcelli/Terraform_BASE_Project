@@ -23,9 +23,18 @@ resource "aws_instance" "instance01" {
   root_block_device {
     volume_size = "110"
   }
-  tags = {
-    nome    = "LinuxAWS"
-    projeto = "Trinity"
-  }
+
+  tags = local.tags_projeto
+
+  # tags = {
+  #   nome    = "LinuxAWS"
+  #   projeto = "Trinity"
+  # }
 }
 
+
+# resource "aws_s3_bucket" "bucketrandom" {
+
+#   bucket = "${random_pet.pet.id}"
+
+# }
