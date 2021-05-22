@@ -27,3 +27,4 @@ override.tf.json
 provider_keys_access.tf
 workspace-BASE.code-workspace
 var.tf
+.terraform.lock.hcl
